@@ -1,0 +1,134 @@
+body {
+    font-family: "Opensans", sans-serif;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 300;
+  }
+  main {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+  }
+  .box {
+    margin: -1.5rem;
+    display: flex;
+    flex-direction: row;
+    width: 55rem;
+  }
+  figcaption {
+    margin-top: 2.5rem;
+
+    font-size: 1.52rem;
+  }
+  figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  img {
+    width: 18rem;
+  }
+  .light {
+    width: 8rem;
+    visibility: hidden;
+  }
+  .form {
+    display: flex;
+    position: relative;
+    justify-content: center;
+  }
+  button {
+    border: 4px solid black;
+    height: 4.5rem;
+    width: 10rem;
+    background-color: white;
+    border-radius: 3px;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  button:hover {
+    background-color: black;
+    color: white;
+  }
+  .container_details {
+    font-size: 1.75rem;
+  }
+  .container {
+    /* justify-content: center;
+    align-items: center;
+    display: flex; */
+    margin: 0;
+    border: 2px solid black;
+    height: 19rem;
+    width: 9rem;
+  }
+  .grid {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.25rem;
+    margin: 0;
+    border-radius: 0.5rem;
+  }
+  .cell {
+    margin: auto;
+    background-color: rgb(219, 219, 219);
+    width: 7.95em;
+    height: 2.4rem;
+    display: block;
+    border: 2px solid black;
+  }
+  .cell1 {
+    background-color: rgb(0, 230, 0);
+    /* visibility: hidden; */
+  }
+  .cell2 {
+    background-color: rgb(0, 189, 0);
+  }
+  .cell3 {
+    background-color: rgb(150, 204, 0);
+  }
+  .cell4 {
+    background-color: rgb(204, 250, 0);
+  }
+  .cell5 {
+    background-color: rgb(224, 123, 8);
+  }
+  .cell6 {
+    background-color: rgb(255, 1, 1);
+  }
+
+  .parent_container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  .list_items{
+      list-style: none;
+      font-size: 1.5rem;
+      width: max-content;
+  }
+  footer{
+    margin: 0;
+    padding: 0;
+  }
+  .footer{
+    margin-top: 3rem;
+    height: 4em;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+  }
+  
+
