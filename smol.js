@@ -99,7 +99,7 @@ switchToggle.addEventListener('click', (e)=> {
       heading.style.color = "black"
       light.style.backgroundColor = "white"
     }
-    else{
+    if(switchToggle.innerHTML == "Switch Off"){
       lightImg.style.visibility = "visible"
       textToggle.innerHTML = 'Switched On'
       cells.forEach((cell) => {
